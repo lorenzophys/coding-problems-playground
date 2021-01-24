@@ -36,7 +36,6 @@ Constraints:
 
 
 def checkIfExist(arr):
-    
     lookup = set()
     for num in arr:
         if num*2 in lookup or num/2 in lookup:

@@ -31,7 +31,6 @@ Each element in the array appears twice except for one element which appears onl
 
 
 def singleNumber_math(nums):
-
     s = set(nums)
     
     double_single = 2 * sum(s)
@@ -41,7 +40,6 @@ def singleNumber_math(nums):
 
 
 def singleNumber_bitManipulation(nums):
-
     single = 0
         
     for val in nums:

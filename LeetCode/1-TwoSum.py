@@ -32,7 +32,6 @@ Only one valid answer exists.
 
 
 def twoSum_simple(nums, target):
-
     for i in range(len(nums)):
         for j in range(i+1, len(nums)):
             sum_ = nums[i] + nums[j]
@@ -43,7 +42,6 @@ def twoSum_simple(nums, target):
 
 
 def twoSum_efficient(nums, target):
-
     hashmap = {}
     for index, value in enumerate(nums):
         complement = target - value

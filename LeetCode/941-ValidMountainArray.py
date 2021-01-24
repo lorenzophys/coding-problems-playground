@@ -32,7 +32,6 @@ Constraints:
 
 
 def validMountainArray(arr):
-
     left = 0
     right = len(arr) - 1
     

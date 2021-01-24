@@ -21,7 +21,6 @@ Output: true
 """
 
 def containsDuplicate(nums):
-
     lookup = set()
     for val in nums:
         if val not in lookup:
@@ -32,5 +31,4 @@ def containsDuplicate(nums):
     return False
 
 def containsDuplicate_oneLine(nums):
-    
-        return len(nums) != len(set(nums))
+    return len(nums) != len(set(nums))

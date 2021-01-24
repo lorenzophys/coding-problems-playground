@@ -28,7 +28,6 @@ Follow up: Squaring each element and sorting the new array is very trivial, coul
 
  
 def sortedSquares_simple(nums):
-
     for i in range(len(nums)):
         nums[i]= nums[i] * nums[i]
 
@@ -36,7 +35,6 @@ def sortedSquares_simple(nums):
 
 
 def sortedSquares_efficent(nums):
-
     left = 0
     right = len(nums) - 1
     spots = len(nums) - 1

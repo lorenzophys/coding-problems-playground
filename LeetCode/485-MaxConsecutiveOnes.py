@@ -19,7 +19,6 @@ The length of input array is a positive integer and will not exceed 10,000
 
 
 def findMaxConsecutiveOnes(nums):
-
     counter = 0
     max_ones = 0
     
@@ -30,4 +29,5 @@ def findMaxConsecutiveOnes(nums):
                 max_ones = counter
         else:
             counter = 0
+            
     return max_ones

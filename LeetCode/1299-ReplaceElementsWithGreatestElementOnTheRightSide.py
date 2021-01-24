@@ -30,10 +30,8 @@ Constraints:
 
 
 def replaceElements(arr):
-    
     greatest = arr[-1]
     end = len(arr) - 1
-    
     arr[-1] = -1
     
     for i in range(end-1, -1, -1):

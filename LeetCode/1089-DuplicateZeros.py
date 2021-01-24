@@ -26,7 +26,6 @@ Note:
 """
 
 def duplicateZeros(arr):
-
     zeros = False
     for index, value in enumerate(arr):
         if zeros:

@@ -6,7 +6,6 @@ LINK: https://leetcode.com/problems/palindrome-number/
 
 
 def isPalindrome(x):
-
     if x<0:
         return False
 
@@ -21,7 +20,6 @@ def isPalindrome(x):
 
 
 def isPalindrome_convertToString(x):
-    
     if x<0:
         return False
     
