@@ -38,6 +38,7 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 """
 
 
+# Kadane's algorithm: https://en.wikipedia.org/wiki/Maximum_subarray_problem
 def maxSubArray(nums):
     largest, current = float('-inf'), float('-inf')
     
