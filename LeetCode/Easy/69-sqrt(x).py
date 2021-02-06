@@ -25,18 +25,15 @@ def mySqrt(x):
     if x==1:
         return 1
     
-    # 4631=Sqrt of the max number in test cases, if you're not concerned with time limits
-    # just replace it with x//2 + 1
-    left, right = 0, 46341
-    mid = (left+right)//2
+    left, right = 0, x//2 + 1
     
     while left<right:
-        mid = (left+right)//2
+        mid = (left+right+1)//2
         if mid*mid==x:
             return mid
         elif mid*mid<x:
-            left += 1
+            left = mid
         else:
-            right -= 1
+            right = mid - 1
             
-    return mid
+    return right
