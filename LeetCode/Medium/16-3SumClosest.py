@@ -9,7 +9,6 @@ Input: nums = [-1,2,1,-4], target = 1
 Output: 2
 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
  
-
 Constraints:
 
 3 <= nums.length <= 10^3
@@ -34,10 +33,8 @@ def threeSumClosest(nums, target):
             
             if sum<target:
                 left += 1
-                
             elif sum>target:
                 right -= 1
-                
             else:
                 return target
             
