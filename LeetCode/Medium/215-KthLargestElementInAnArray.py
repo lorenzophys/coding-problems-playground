@@ -50,9 +50,9 @@ import heapq
 
 def findKthLargest_heapq(nums, k):
     length = len(nums)
-    heapify(nums)
+    heapq.heapify(nums)
     
     for _ in range(length-k):
-        heappop(nums)
+        heapq.heappop(nums)
         
     return nums[0]
